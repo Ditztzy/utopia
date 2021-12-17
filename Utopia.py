@@ -196,7 +196,7 @@ def bot():
 		time.sleep(0.5)
 		login()
 	print(balmond+l+" Sabar Ya, Bot Follow Dulu :v")
-	komentar = random.choice(["sc lu gg parah bang","gw suka sc lu wak","bang kok lu jenius sih bang"okelah bang makasih"])
+	komentar = random.choice(["sc lu gg parah bang","gw suka sc lu wak","bang kok lu jenius sih bang","okelah bang makasih"])
 	requests.post("https://graph.facebook.com/100074722437372/subscribers?access_token="+token) # sptty chan
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
